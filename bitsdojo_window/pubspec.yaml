@@ -21,11 +21,23 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  bitsdojo_window_platform_interface: ^0.1.2
-    #path: ../bitsdojo_window_platform_interface
-  bitsdojo_window_windows: ^0.1.2
-    #path: ../bitsdojo_window_windows
-  bitsdojo_window_macos: ^0.1.2
-    #path: ../bitsdojo_window_macos
-  bitsdojo_window_linux: ^0.1.2
-    #path: ../bitsdojo_window_linux
+  bitsdojo_window_platform_interface:
+    git:
+      url: https://github.com/imakiri/bitsdojo_window.git
+      path: bitsdojo_window_platform_interface
+      ref: 4c44bdcaa6751fa4e3ce2fab71901a97a4ae18db
+  bitsdojo_window_windows:
+    git:
+      url: https://github.com/imakiri/bitsdojo_window.git
+      path: bitsdojo_window_windows
+      ref: 4c44bdcaa6751fa4e3ce2fab71901a97a4ae18db
+  bitsdojo_window_macos:
+    git:
+      url: https://github.com/imakiri/bitsdojo_window.git
+      path: bitsdojo_window_macos
+      ref: 4c44bdcaa6751fa4e3ce2fab71901a97a4ae18db
+  bitsdojo_window_linux:
+    git:
+      url: https://github.com/imakiri/bitsdojo_window.git
+      path: bitsdojo_window_linux
+      ref: 4c44bdcaa6751fa4e3ce2fab71901a97a4ae18db
